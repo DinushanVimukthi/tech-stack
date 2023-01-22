@@ -5,7 +5,9 @@ import Footer from "./Footer";
 const Layout =({children}) => {
     return (
         <>
-            <Navbar />
+            <Navbar style={{
+                position: 'fixed',
+            }} />
         <div className={styles.container}>
             <main className={styles.main}>
                 {children}
