@@ -3,6 +3,7 @@
     flex-direction: column;
     padding: 96px 0;
     width: 100%;
+    margin-top: 3.5em;
 }
 
 .title{
@@ -58,6 +59,7 @@
     width: 20px;
     height: 20px;
     margin-right: 1em;
+    cursor: pointer;
 }
 
 .header{
@@ -142,4 +144,56 @@
     font-size: 16px;
     line-height: 24px;
     color: #475569;
+}
+
+.video{
+    text-align: center;
+    position: relative;
+    margin: 2em 0;
+}
+
+.videoImg{
+    width: 60%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.playImg{
+    position: absolute;
+    left: 48%;
+    top: 40%;
+}
+
+.pdfImg{
+    width: 2em;
+    height: 2em;
+}
+
+.resources{
+    padding-left: 3em;
+}
+
+.resources h5{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #475569;
+}
+
+.resource{
+    display: flex;
+    align-items: center;
+    margin: .5em 0;
+}
+
+.resource span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0F172A;
+    margin-left: .5em;
 }

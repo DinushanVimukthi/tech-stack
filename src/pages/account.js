@@ -2,23 +2,12 @@ import styles from "@/styles/Account.module.css";
 import Image from "next/image";
 import CAImg from 'public/Images/account/CA.png'
 import RightArrow from "public/icons/right-arrow-svgrepo-com.svg";
-import Logo from 'public/Images/account/Enrich.png';
-import ProfileImg from "public/icons/user-profile-svgrepo-com.svg";
-import DownArrow  from  "public/icons/down-arrow-backup-2-svgrepo-com.svg";
-import {useState} from "react";
 import Layout2 from "../../components/courses/Layout2";
 
 
 
 export default function account()
 {
-    // eslint-disable-next-line react-hooks/rules-of-hooks
-    const [display, setDisplay] = useState('hidden');
-
-    const handleDropDown = () => {
-        setDisplay('visible');
-    }
-
     return (
         <>
             <div className={styles.container}>
@@ -89,46 +78,11 @@ export default function account()
                 </div>
             </div>
 
-            <div className={styles.accountHeader}>
-                <div className={styles.logo}>
-                    <Image src={Logo} alt="logo" />
-                </div>
-                <div className={styles.navItems}>
-                    <ul>
-                        <li className={styles.navItem}>Dashboard</li>
-                        <li className={styles.navItem}>My Subjects</li>
-                    </ul>
-                </div>
-                <div className={styles.user}>
-                    <div >
-                        <Image className={styles.profileImg} src={ProfileImg} />
-                    </div>
-                    <div>
-                        <span>Gimhan</span>
-                        <button className={styles.dropDownBtn}>
-                            <Image className={styles.dropdown} src={DownArrow} onClick={() => handleDropDown()}/>
-                        </button>
-                    </div>
-                </div>
-            </div>
 
-            <div className={styles.dropDown} style={{visibility: `${display}`}}>
-                <a href="#">
-                    <span>Dashboard</span>
-                </a>
-                <a href="#">
-                    <span>Settings</span>
-                </a>
-                <a href="#">
-                    <span>Help Center</span>
-                </a>
-                <a href="#">
-                    <span>Logout</span>
-                </a>
-            </div>
         </>
     )
 }
+
 account.getLayout = function getLayout(page) {
     return <Layout2>{page}</Layout2>
 }
