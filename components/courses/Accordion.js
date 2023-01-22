@@ -24,9 +24,11 @@ export default function Accordion(props) {
             </div>
             <div className={AccaStyles.accordionItemContent} style={{
                 display: isShowing ? "flex" : "none"
-            }}>
+            }}
+            dangerouslySetInnerHTML={{__html:props.content}}
+            >
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
-                {props.content}
+
             </div>
         </div>
     );
