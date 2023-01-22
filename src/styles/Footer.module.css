@@ -1,0 +1,115 @@
+.footer{
+    background-color: rgba(52, 52, 54, 1);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer .footerContent{
+    width: 100vw;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: flex-start;
+    margin: 0 2rem;
+}
+.footer .footerContent .footerSection{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 2rem;
+    max-width: 30%;
+    min-width: 20%;
+}
+
+.footer .footerContent .footerSection .brandTitle{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 1rem 0;
+    color: rgba(200, 0, 0, 1);
+}
+
+.footer .footerContent .footerSection .contactDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.footer .footerContent .footerSection .contactDetails .contactItem{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.footer .footerContent .footerSection .contactDetails .contactItem .socialLinks{
+    display: flex;
+    padding: 0 1rem;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer .footerContent .footerSection .footerSectionTitle{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    align-self: flex-start;
+}
+
+.footer .footerContent .footerSection .links{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.Email, .subscribeButton{
+    border: none;
+    outline: none;
+}
+
+.footer .Email{
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.subscribe{
+    display: flex;
+    gap: 1rem;
+}
+
+.subscribeButton{
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    color: white;
+    background: rgba(200, 0, 0, 1);
+}
+
+.footer .tip{
+    align-self: flex-start;
+    margin-top: 0.5rem;
+}
+.line{
+    border: none;
+    border-bottom: 1px solid rgba(234, 234, 234, 1);
+    width: 100%;
+    margin: 1rem 0;
+}
+.footer .footerBottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.footer .footerBottom .footerBottomContent{
+    display: flex;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 400px;
+
+}
