@@ -197,3 +197,37 @@
     color: #0F172A;
     margin-left: .5em;
 }
+
+@media  screen and (max-width: 750px){
+    .videoImg{
+        width: 100%;
+    }
+}
+
+@media  screen and (max-width: 480px){
+    .container{
+        width: 100%;
+        margin-top: 5em;
+    }
+
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn button{
+        margin-left: unset;
+    }
+
+    .video{
+        width: 100%;
+    }
+
+    .videoImg{
+        width: 100%;
+    }
+
+    .module{
+        padding: 1em 0.5em;
+    }
+}

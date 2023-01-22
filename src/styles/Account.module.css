@@ -259,6 +259,46 @@
     line-height: 22px;
 }
 
+@media  screen and (max-width: 1200px){
+    .cards{
+        flex-direction: column;
+    }
+
+    .card{
+        width: 100%;
+        margin-bottom: 1em;
+    }
+}
+
+@media  screen and (max-width: 660px){
+    .navItems ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media  screen and (max-width: 600px){
+    .container{
+        width: 98%;
+    }
+
+    .accountHeader{
+        flex-direction: column;
+        justify-content: center;
+        height: 150px;
+        align-items: center;
+    }
+
+    .navItems ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .user{
+        position: unset;
+    }
+}
+
 @media  screen and (max-width: 480px) {
     .accountHeader{
         flex-direction: column;
