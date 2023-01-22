@@ -14,8 +14,16 @@ export default function account2()
 {
     const [visibility1, setVisibility1] = useState('visible');
     const [desVisibility1, setDesVisibility1] = useState('none');
+
     const [visibility2, setVisibility2] = useState('visible');
     const [desVisibility2, setDesVisibility2] = useState('none');
+
+     const [visibility3, setVisibility3] = useState('visible');
+    const [desVisibility3, setDesVisibility3] = useState('none');
+
+     const [visibility4, setVisibility4] = useState('visible');
+    const [desVisibility4, setDesVisibility4] = useState('none');
+
 
     const handelModule1 = () => {
 
@@ -40,6 +48,32 @@ export default function account2()
             setDesVisibility2('none');
         }
     }
+
+    const handelModule3 = () => {
+
+        if(visibility3 === 'visible')
+        {
+            setVisibility3('hidden');
+            setDesVisibility3('block');
+        }else{
+            setVisibility3('visible');
+            setDesVisibility3('none');
+        }
+    }
+
+    const handelModule4 = () => {
+
+        if(visibility4 === 'visible')
+        {
+            setVisibility4('hidden');
+            setDesVisibility4('block');
+        }else{
+            setVisibility4('visible');
+            setDesVisibility4('none');
+        }
+    }
+
+
 
     return(
         <>
@@ -178,12 +212,12 @@ export default function account2()
                     <div className={styles.module}>
                         <div className={styles.moduleHeader}>
                             {/* eslint-disable-next-line jsx-a11y/alt-text */}
-                            <Image className={styles.downArrow} src={DownArrow}/>
+                            <Image className={styles.downArrow} src={DownArrow} onClick={() => handelModule3()}/>
                             <h4>Module name 03</h4>
                             {/* eslint-disable-next-line jsx-a11y/alt-text */}
-                            <Image className={styles.edit} src={Edit}/>
+                            <Image className={styles.edit} src={Edit} style={{visibility: `${visibility3}`}}/>
                         </div>
-                        <div className={styles.btn}>
+                        <div className={styles.btn} style={{visibility: `${visibility3}`}}>
                             <button>
                                 {/* eslint-disable-next-line jsx-a11y/alt-text */}
                                 <Image className={styles.plus} src={Plus}/>
@@ -191,7 +225,7 @@ export default function account2()
                             </button>
                         </div>
 
-                        <div className={styles.moduleDetails}>
+                        <div className={styles.moduleDetails} style={{display: `${desVisibility3}`}}>
                             <div className={styles.btn}>
                                 <button>
                                     {/* eslint-disable-next-line jsx-a11y/alt-text */}
@@ -232,12 +266,12 @@ export default function account2()
                     <div className={styles.module}>
                         <div className={styles.moduleHeader}>
                             {/* eslint-disable-next-line jsx-a11y/alt-text */}
-                            <Image className={styles.downArrow} src={DownArrow}/>
+                            <Image className={styles.downArrow} src={DownArrow} onClick={() => handelModule4()}/>
                             <h4>Module name 04</h4>
                             {/* eslint-disable-next-line jsx-a11y/alt-text */}
-                            <Image className={styles.edit} src={Edit}/>
+                            <Image className={styles.edit} src={Edit} style={{visibility: `${visibility4}`}}/>
                         </div>
-                        <div className={styles.btn}>
+                        <div className={styles.btn} style={{visibility: `${visibility4}`}}>
                             <button>
                                 {/* eslint-disable-next-line jsx-a11y/alt-text */}
                                 <Image className={styles.plus} src={Plus}/>
@@ -245,7 +279,7 @@ export default function account2()
                             </button>
                         </div>
 
-                        <div className={styles.moduleDetails}>
+                        <div className={styles.moduleDetails} style={{display: `${desVisibility4}`}}>
                             <div className={styles.btn}>
                                 <button>
                                     {/* eslint-disable-next-line jsx-a11y/alt-text */}
