@@ -3,9 +3,13 @@ import '@/styles/globals.css'
 
 
 export default function App({ Component, pageProps }) {
+    const renderWithLayout =
+        Component.getLayout ||
+        function (page) {
+            return <Layout>{page}</Layout>;
+        };
   return (
-      <Layout>
-      <Component {...pageProps} />
-      </Layout>
+      renderWithLayout(<Component {...pageProps} />)
+
   )
 }

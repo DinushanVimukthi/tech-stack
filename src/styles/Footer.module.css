@@ -110,6 +110,39 @@
 .footer .footerBottom .footerBottomContent{
     display: flex;
     color: rgba(255, 255, 255, 0.4);
-    font-weight: 400px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 480px){
+    .footer .footerContent{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .footerContent .footerSection{
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .footer .footerContent .footerSection .footerSectionTitle{
+        align-self: center;
+    }
+    .footer .footerContent .footerSection .links{
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .footerContent .footerSection .contactDetails{
+        align-items: center;
+        justify-content: center;
+    }
+    .subscribe{
+        flex-direction: column;
+    }
+    .footer .tip{
+        align-self: center;
+    }
+
 
 }

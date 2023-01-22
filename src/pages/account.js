@@ -6,6 +6,9 @@ import Logo from 'public/Images/account/Enrich.png';
 import ProfileImg from "public/icons/user-profile-svgrepo-com.svg";
 import DownArrow  from  "public/icons/down-arrow-backup-2-svgrepo-com.svg";
 import {useState} from "react";
+import Layout2 from "../../components/courses/Layout2";
+
+
 
 export default function account()
 {
@@ -125,4 +128,7 @@ export default function account()
             </div>
         </>
     )
+}
+account.getLayout = function getLayout(page) {
+    return <Layout2>{page}</Layout2>
 }
