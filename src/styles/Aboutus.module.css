@@ -159,3 +159,32 @@
     justify-content: center;
     gap: 2rem;
 }
+
+@media only screen and (max-width: 480px) {
+    .VisMis{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .Vission , .Mission{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+    }
+    .cards{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .card{
+        border: 1px solid rgba(240,0,0,1);
+    }
+    .partners{
+        flex-direction: column;
+    text-align: center;
+    }
+
+    .partnerCards{
+        flex-direction: column;
+    }
+}
