@@ -258,7 +258,7 @@ export default function acca() {
                     <div className={AccaStyles.contentCard}>
                         <div className={AccaStyles.contentCardTitle}>
                             <div className={AccaStyles.contentCardIcon}>
-                                <Image src={OK} alt="icon" width={40} height={40}  className={AccaStyles.Image}/>
+                                <Image src={OK} alt="icon" width={40} height={40}  className={AccaStyles.Image} objectFit="contain" />
                             </div>
                             <div className={AccaStyles.contentCardText}>
                                 <div className={AccaStyles.contentCardTextTitle}>
@@ -430,7 +430,7 @@ export default function acca() {
                                         <div className={AccaStyles.contentCardIcon}>
                                             <Image src={Im4} alt="icon" style={{
                                                 width: '100%',
-                                            }} />
+                                            }} objectFit="contain"/>
                                         </div>
                                         <div className={AccaStyles.contentCardTitle}>
                                             Business Mathematics & Statics
