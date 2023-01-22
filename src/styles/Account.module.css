@@ -1,0 +1,259 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 96px 0;
+    gap: 48px;
+    position: absolute;
+    width: 62.1%;
+    height: 564px;
+    top: 96px;
+}
+
+.title{
+    width: 174px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.0125em;
+    color: #0F172A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.subTitle{
+    width: 99px;
+    height: 32px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.018em;
+    color: #0F172A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px;
+    gap: 16px;
+    width: 49%;
+    height: 228px;
+    background: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    border-radius: 16px;
+    flex: none;
+    order: 0;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardDetails{
+    width: 55%;
+}
+
+.cardTitle span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #475569;
+}
+
+.subjectName{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #334155;
+}
+
+.progress{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.progressBar{
+    width: 85%;
+    height: 6px;
+    background: #D9D9D9;
+    border-radius: 8px;
+}
+
+.progressBar div{
+    width: 44%;
+    height: 6px;
+    background: #56D86A;
+    border-radius: 8px;
+}
+
+.progressBar2{
+    width: 85%;
+    height: 6px;
+    background: #D9D9D9;
+    border-radius: 8px;
+}
+
+.progressBar2 div{
+    width: 100%;
+    height: 6px;
+    background: #56D86A;
+    border-radius: 8px;
+}
+
+.progress span{
+    width: 1em;
+    margin-left: .5em;
+    color: #475569;
+}
+
+.btn{
+    background-color: white;
+    width: 186px;
+    height: 46px;
+    border: 1px solid #DC2626;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.btn span{
+    color: #dc2626;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.arrow{
+    width: 15px;
+    height: 15px;
+    margin-left: 1em;
+}
+
+.status{
+    margin-top: 1em;
+}
+
+.status span{
+    color: #dc2626;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.CAImg{
+    width: 50%;
+    object-fit: cover;
+    border: 1px solid #c3c3c3;
+    border-radius: 6px;
+}
+
+.accountHeader{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 96px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #CBD5E1;
+    display: flex;
+    align-items: center;
+    padding : 0 2em;
+}
+
+.profileImg {
+    width: 21px;
+    height: 21px;
+}
+
+.dropDownBtn{
+    background-color: white;
+    border: none;
+}
+
+.dropdown{
+    width: 1em;
+    height: 1em;
+    cursor: pointer;
+}
+
+.navItems{
+    width: 30%;
+}
+
+.navItems ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navItems ul li, .user div:last-child span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #475569;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    width: 130px;
+    justify-content: space-around;
+    position: absolute;
+    right: 2em;
+}
+
+.user div:last-child{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dropDown{
+    display: flex;
+    flex-direction: column;
+    width: 224px;
+    height: 203px;
+    position: absolute;
+    top: 68px;
+    right: 40px;
+    border: 1px solid #CBD5E1;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding: 32px;
+}
+
+.dropDown a{
+    width: 100%;
+    border-bottom: 2px solid #D9DEE8;
+    padding-bottom: .4em;
+    margin-bottom: .5em;
+    color: #0F172A;
+}
+
+.dropDown a span{
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}

@@ -1,0 +1,145 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 96px 0;
+    width: 100%;
+}
+
+.title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.0125em;
+    color: #0F172A;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.personImg{
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.details h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.018em;
+    color: #0F172A;
+}
+
+.details span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #475569;
+}
+
+.general{
+    width: 100%;
+    margin-top: 3.5em;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border: 2px solid lightgrey;
+    padding: 48px 80px;
+}
+
+.downArrow{
+    width: 20px;
+    height: 20px;
+    margin-right: 1em;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5em;
+}
+
+.header div:first-child{
+    display: flex;
+    align-items: center;
+}
+
+.header div:first-child h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.018em;
+    color: #0F172A;
+}
+
+.info{
+    width: 93%;
+    margin: 0 auto;
+}
+
+.info span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.module{
+    width: 100%;
+    padding: 48px 80px;
+    border: 2px solid lightgrey;
+}
+
+.module:last-child{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.moduleHeader{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.018em;
+    color: #0F172A;
+}
+
+.edit{
+    width: 25px;
+    height: 25px;
+    margin-left: 1em;
+}
+
+.plus{
+    width: 20px;
+    height: 20px;
+    margin-right: .5em;
+}
+
+.btn button{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    border: 1px solid #475569;
+    padding: 8px 24px;
+    border-radius: 8px;
+    margin-left: 3.2em;
+    margin-top: 2.5em;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #475569;
+}
