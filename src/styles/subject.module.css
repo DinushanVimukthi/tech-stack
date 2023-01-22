@@ -1,0 +1,83 @@
+.Title{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+}
+.Overlook{
+    margin-top: 4rem;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 1rem;
+    align-items: center;
+}
+.Overlook .OverlookContent{
+    width: 50%;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.Overlook .ContentTitle{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+.Overlook .Content{
+    text-align: left;
+}
+.PurchaseBtn{
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    background: rgba(240,0,0,1);
+    border: none;
+    outline: none;
+    color: white;
+    width: 20vw;
+    font-size: 24px;
+    font-weight: 600;
+}
+.Material{
+    display: flex;
+    margin:1rem 0;
+}
+.List{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ListItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 480px){
+    .Overlook{
+        flex-direction: column;
+    }
+    .Overlook .OverlookContent{
+        width: 100%;
+    }
+    .OverlookImage{
+        width: 100%;
+        align-self: flex-start;
+    }
+    .Image{
+        width: 100%;
+        height: 50%;
+        object-fit: contain;
+    }
+    .PurchaseBtn{
+        width: 40vw;
+        padding: 0.5rem 0.5rem;
+        font-size: 1rem;
+        border-radius: 5px;
+    }
+}
+
+
