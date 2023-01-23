@@ -65,12 +65,37 @@
     object-fit: cover;
 }
 
+@media  screen and (max-width: 750px) {
+    .Overlook{
+        flex-direction: column;
+    }
+
+    .Overlook .OverlookContent{
+        width: 100%;
+        text-align: centergi;
+    }
+
+    .OverlookImage{
+        width: 100%;
+        align-self: flex-start;
+    }
+
+    .PurchaseBtn{
+        width: 100%;
+    }
+
+    .Content{
+        text-align: justify;
+    }
+}
+
 @media only screen and (max-width: 480px){
     .Overlook{
         flex-direction: column;
     }
     .Overlook .OverlookContent{
         width: 100%;
+        text-align: center;
     }
     .OverlookImage{
         width: 100%;
@@ -86,6 +111,10 @@
         padding: 0.5rem 0.5rem;
         font-size: 1rem;
         border-radius: 5px;
+    }
+
+    .Content{
+        text-align: justify;
     }
 }
 
