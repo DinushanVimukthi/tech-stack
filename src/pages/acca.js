@@ -603,7 +603,7 @@ export default function acca() {
                                 flexDirection: 'column'
                             }}>
                                 <div className={AccaStyles.contentCards} style={{
-                                    justifyContent: 'flex-start'
+                                    justifyContent: 'center'
                                 }}>
                                     <div className={AccaStyles.contentCard} style={{
                                         width: 'auto',
@@ -652,7 +652,7 @@ export default function acca() {
                                 flexDirection: 'column'
                             }}>
                                 <div className={AccaStyles.contentCards} style={{
-                                    justifyContent: 'flex-start'
+                                    justifyContent: 'center'
                                 }}>
                                     <div className={AccaStyles.contentCard} style={{
                                         width: '300px',
@@ -910,7 +910,7 @@ export default function acca() {
                                 flexDirection: 'column'
                             }}>
                                 <div className={AccaStyles.contentCards} style={{
-                                    justifyContent: 'flex-start'
+                                    justifyContent: 'center'
                                 }}>
                                     <div className={AccaStyles.contentCard} style={{
                                         width: 'auto',
@@ -959,7 +959,7 @@ export default function acca() {
                                 flexDirection: 'column'
                             }}>
                                 <div className={AccaStyles.contentCards} style={{
-                                    justifyContent: 'flex-start'
+                                    justifyContent: 'center'
                                 }}>
                                     <div className={AccaStyles.contentCard} style={{
                                         width: '300px',
